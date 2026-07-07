@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#ececec;
+    padding:30px;
+}
+
+.resume{
+    width:1000px;
+    margin:auto;
+    background:#fff;
+    box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+
+.top{
+    display:flex;
+    align-items:center;
+    padding:50px;
+    background:#ffffff;
+}
+
+.pic{
+    width:35%;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+
+.pic{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    object-position: center;
+    border:5px solid white;
+    display:block;
+}
+
+.aboutme{
+    width:65%;
+    padding-left:40px;
+}
+
+.aboutme h1{
+    font-size:55px;
+    color:#127ee2;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.aboutme h3{
+    margin-top:15px;
+    font-size:28px;
+    color:#444444;
+    letter-spacing:6px;
+    font-weight:400;
+}
+
+.content{
+    display:flex;
+}
+
+.left{
+    width:40%;
+    background:#f8ece6;
+    padding:40px;
+}
+
+.right{
+    width:60%;
+    padding:40px;
+}
+
+.section{
+    margin-bottom:40px;
+}
+
+.edu{
+    background:#f8ece6;
+    padding:30px;
+    border-radius:25px;
+    margin-bottom:30px;
+}
+
+h2{
+    color:#8b5e3c;
+    font-size:30px;
+    font-weight:600;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+hr{
+    border:none;
+    height:2px;
+    background:#d8a47f;
+    margin-bottom:20px;
+}
+
+p{
+    color:#444;
+    line-height:1.8;
+    font-size:16px;
+    margin-bottom:12px;
+    text-align:justify;
+}
+
+h4{
+    color:#444;
+    font-size:20px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+    line-height:1.7;
+    color:#555;
+}
+
+.bar{
+    width:100%;
+    height:18px;
+    background:#ead9cf;
+    border-radius:30px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+
+.skill{
+    height:100%;
+    background:#d79a72;
+    border-radius:30px;
+}
+
+.c{
+    width:90%;
+}
+
+.java{
+    width:80%;
+}
+
+.python{
+    width:90%;
+}
+
+.mysql{
+    width:85%;
+}
+
+.html{
+    width:85%;
+}
+
+.section p:last-child{
+    margin-bottom:0;
+}
+
+@media(max-width:900px){
+
+.resume{
+    width:100%;
+}
+
+.top{
+    flex-direction:column;
+    text-align:center;
+}
+
+.photo,
+.aboutme{
+    width:100%;
+    padding:0;
+}
+
+.aboutme{
+    margin-top:25px;
+}
+
+.aboutme h1{
+    font-size:40px;
+}
+
+.aboutme h3{
+    font-size:20px;
+    letter-spacing:3px;
+}
+
+.content{
+    flex-direction:column;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+}
+.ull{
+    list-style-type: circle;
+}
